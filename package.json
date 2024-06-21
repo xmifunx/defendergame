@@ -1,0 +1,36 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmifunx/defendergame.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Mifun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmifunx/defendergame/issues"
+  },
+  "homepage": "https://github.com/xmifunx/defendergame#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@eslint/js": "^9.5.0",
+    "@stylistic/eslint-plugin-js": "^2.2.2",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
